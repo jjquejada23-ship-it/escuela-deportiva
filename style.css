@@ -1,0 +1,91 @@
+body {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tarjetas */
+.tarjeta {
+    width: 400px;
+    margin: 100px auto;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Página Contactanos */
+.contacto h1 {
+    color: rgb(150, 86, 3);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contacto p {
+    line-height: 1.6;
+}
+
+/* Navegación */
+.navegacion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #0b5e2b;
+}
+
+.navegacion a {
+    color: #f0f2f5;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+}
+
+/* Página de Inicio de Sesión */
+.seccion-inicio h2 {
+    text-align: center;
+}
+
+.caja-login {
+    width: 300px;
+    min-height: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: auto;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.caja-login h3 {
+    margin-top: 0;
+}
+
+.caja-login input:not([type="submit"]) {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.caja-login input[type="submit"] {
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+/* Página Sitios de Interés */
+.sitios h2 {
+    color: #181733;
+}
+
+.sitios p {
+    line-height: 1.5;
+}
+
+.sitios a {
+    color: #181733;
+    font-weight: bold;
+}
